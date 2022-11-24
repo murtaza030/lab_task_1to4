@@ -1,0 +1,17 @@
+public class Main
+{
+	public static void main(String[] args) {
+		//System.out.println("Hello World");
+		int      a  = 0;
+		byte     a1 = 30;
+		long     a2 = 3073056018L;
+		float    b = 3.5F;
+		char     c = 'a';
+		boolean  d = true;
+		System.out.println(a1);
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
+	}
+}

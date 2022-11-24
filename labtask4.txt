@@ -1,0 +1,28 @@
+
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    // M1 = Matriculation
+	    System.out.println("Enter your Matric Marks : ");
+	    float M1 = sc.nextFloat();
+	    // I1 = intermediate
+	    System.out.println("Enter your Enter Marks : ");
+	    float I1  = sc.nextFloat();
+	    // T1 = Enter Test
+	    System.out.println("Enter your Test Marks : ");
+	    float T1   = sc.nextFloat();
+	          
+	    double p1     = M1 / 850  * 100 * 0.10 ;
+	    double p2     = I1 / 1100 * 100 * 0.30;
+	    double p3     = T1 / 100  * 100 * 0.6;
+	    double p4     = p1 + p3 + p2. ;
+	    
+	    // p4 = cpn
+	    
+	    System.out.println("your cpn is");
+	    System.out.println(p4);
+	    
+	}
+}
